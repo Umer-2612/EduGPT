@@ -6,17 +6,6 @@ This monorepo contains all components of the EduGPT ecosystem.
 
 ---
 
-## 🚀 Project Structure
-
-\`\`\`
-EduGPT/
-├── EduGPT-Frontend/     # React + Vite frontend
-├── EduGPT-Backend/      # Node.js + TypeScript API server
-└── EduGPT-AI-Server/    # AI service (LLM integration, prompt handling, etc.)
-\`\`\`
-
----
-
 ## 📦 Tech Stack
 
 | Layer       | Technologies                                |
