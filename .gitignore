@@ -1,0 +1,19 @@
+# Node & TypeScript
+**/node_modules/
+**/dist/
+**/build/
+
+# Logs
+**/logs
+**/*.log
+
+# Env files
+**/.env
+
+# OS & Editor files
+.DS_Store
+.vscode/
+
+# Optional: lock files if you're using different package managers
+# **/package-lock.json
+# **/yarn.lock
