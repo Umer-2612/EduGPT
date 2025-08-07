@@ -1,6 +1,8 @@
 import express, { Application } from "express";
 import { NotesRoutes } from "../modules/notes";
 
+const cors = require("cors");
+
 export class Server {
   public readonly app: Application;
 
@@ -13,7 +15,7 @@ export class Server {
 
   private setupMiddleware(): void {
     this.app.use(express.json());
-    // You can add CORS, logger, etc. here
+    this.app.use(cors());
   }
 
   private setupRoutes(): void {
